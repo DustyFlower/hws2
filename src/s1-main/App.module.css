@@ -1,9 +1,12 @@
 .App {
     --header_height: 60px;
     display: flex;
-    /*justify-content: center;*/
+    justify-content: start;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .hw {
@@ -19,6 +22,7 @@
     font-family: 'Montserrat', sans-serif;
     line-height: 100%;
 
+    margin-top: 35px;
     margin-left: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
